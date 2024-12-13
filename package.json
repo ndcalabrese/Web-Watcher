@@ -1,0 +1,33 @@
+{
+  "name": "web-watcher",
+  "version": "1.0.0",
+  "description": "Monitors webpages and sends notifications when changes occur",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndcalabrese/Web-Watcher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndcalabrese/Web-Watcher/issues"
+  },
+  "homepage": "https://github.com/ndcalabrese/Web-Watcher#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "dotenv-webpack": "^8.1.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "zip-webpack-plugin": "^4.0.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "date-fns": "^4.1.0",
+    "jsdom": "^25.0.1"
+  }
+}
