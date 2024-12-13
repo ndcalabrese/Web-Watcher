@@ -1,6 +1,5 @@
 const path = require('path');
 const webpack = require('webpack');
-const ZipPlugin = require('zip-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
 module.exports = {
@@ -38,9 +37,6 @@ module.exports = {
     new Dotenv({
       path: './.env', // Path to your .env file
       safe: false,     // Optional: Validate against .env.example
-    }),
-    new ZipPlugin({
-      filename: 'web-watcher.zip'
     })
   ],
   target: 'node'
